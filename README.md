@@ -10,4 +10,4 @@ Reedy Creek Times is a student school newspaper from Reedy Creek MMS that featur
 
 ## Documentation
 
-Read [this](https://github.com/reedycreektimes/reedycreektimes.github.io/blob/main/Docs/docs.md) page. Read all of the sections before proceding to commit any changes.
+To view the documentation, go to [this](https://github.com/reedycreektimes/reedycreektimes.github.io/blob/main/Docs/docs.md) page. Read all of the sections before proceding to commit any changes.
