@@ -8,6 +8,12 @@
 
 - [Documentation](#documentation)
 
+    - [Warnings](#warnings)
+
+    - [Website Hosting Delay](#website-hosting-delay)
+
+    - [Code](#code)
+
     - [New Issue Updating](#new-issue-updating)
 
     - [Issue Transition](#issue-transition)
@@ -73,6 +79,12 @@ This file shows the documentation for updating, creating, and deleting the code 
 - **Read the appropriate documentation of a certain section before making changes to the code for that section.**
 
 - **Please read the [New Issue Updating](#new-issue-updating) section for the steps to changing the GitHub Code for a new issue.**
+
+================
+
+### Website Hosting Delay
+
+**The website is hosted by GithubPages, so after a commit, it may take some time before the website will show on the internet.**
 
 ================
 
