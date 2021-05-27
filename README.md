@@ -7,3 +7,7 @@ Visit our website at: [reedycreektimes.com](https://reedycreektimes.com/)
 ## About
 
 Reedy Creek Times is a student school newspaper from Reedy Creek MMS that features a variety of articles from different backgrounds like tech, science, world news, and more. This is the repositery for the website's code.
+
+## Documentation
+
+Read [this](https://github.com/reedycreektimes/reedycreektimes.github.io/blob/main/Docs/docs.md) page. Read all of the sections before proceding to commit any changes.
