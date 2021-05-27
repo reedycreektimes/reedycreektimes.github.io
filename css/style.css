@@ -1,0 +1,363 @@
+/* CSS */
+
+/* Main stylesheet for major modifications */
+
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+/* Colors */
+
+:root {
+    --primary-color: #d2353e;
+    --secondary-color: #efae42;
+}
+
+/* Base Styles */
+
+/* --All Styles-- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --Body Styles-- */
+
+body {font-family: Lato, sans-serif;}
+
+/* Standard Styles */
+
+/* Header/Navbar */
+
+.container header {margin-bottom: 1rem;}
+
+.container header h1 {
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #000;
+}
+
+.container header nav {
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.container header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container header nav ul li {
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+}
+
+.container header nav ul li a:hover {color: var(--primary-color);}
+
+.container header .relative {position: relative;}
+
+/* Footer */
+
+footer {
+    background-color: rgb(53, 53, 53);
+    height: 10rem;
+    padding: 1rem 2rem;
+}
+
+footer h1 {padding-top: 1rem;}
+
+footer ul {padding-top: 1rem;}
+
+footer ul li {list-style: none;}
+
+footer ul li a {
+    color: var(--secondary-color);
+    margin-right: 1rem;
+}
+
+footer ul li a:hover {color: rgb(75, 75, 75);}
+
+footer a {
+    color: var(--primary-color);
+    padding-top: 1rem;
+}
+
+footer a:hover {color: rgb(128, 0, 0);}
+
+footer a img {
+    margin-right: 1.3rem;
+    transition: opacity ease-in 0.15s;
+}
+
+footer a img:hover {opacity: 0.5;}
+
+/* ------------- */
+
+/* Home Page */
+
+/* Top Information */
+
+.container header .top-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Volume */
+
+.container header .top-info .volume {font-size: 1rem;}
+
+/* Social Links */
+
+.container .top-info .social-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* --Icons-- */
+
+.fa-facebook,
+.fa-twitter,
+.fa-envelope-square {
+    padding-right: 2rem;
+    transition: color 0.2s;
+}
+
+.fa-facebook:hover {color: #3b5998;}
+
+.fa-twitter:hover {color: #00aced;}
+
+.fa-envelope-square:hover {color: var(--primary-color);}
+
+/* News Articles */
+
+.container .news-articles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container .news-articles .article {
+    text-align: center;
+    padding-bottom: 1.5rem;
+    margin: 0.5rem 2rem 0rem 1.8rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container .news-articles .article img {
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.container .news-articles .article .news-title {
+    color: #000;
+    padding-top: 0.5rem;
+}
+
+.container .news-articles .article .news-title a:hover {color: var(--secondary-color);}
+
+/* Articles Button */
+
+.btnArticle a {margin: 3rem 0rem;}
+
+/* Explore Section */
+
+.container .explore{
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    padding: 20px 40px;
+}
+
+.container .explore h2 {
+    color: #000;
+    border-bottom: 3px solid #000;
+    font-size: 150%;
+}
+
+.container .explore .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0rem;
+    margin-left: 2rem;
+}
+
+.container .explore .buttons .button-section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    width: 366px;
+    padding: 1rem 2rem;
+    text-align: center;
+    margin-right: 1.2rem;
+}
+
+.container .explore .buttons .button-section h3 {
+    padding-bottom: 0.5rem;
+    font-size: 110%;
+}
+
+.container .explore .buttons .button-section p {padding-bottom: 0.7rem;}
+
+.container .explore .buttons .buttons .button-section a {margin-right: 1rem;}
+
+/* ------------- */
+
+/* Articles Page */
+
+/* Issue Heading */
+
+.container .issue-heading {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 0.2rem;
+    margin: 2.5rem 1.9rem 1rem 1.9rem;
+    border-radius: 10px;
+}
+
+.container .issue-heading h2 {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+/* Margin Bottom */
+
+#margin-bottom {margin-bottom: 3rem;}
+
+#margin-bottom .article {margin-bottom: 1.5rem;}
+
+/* ------------- */
+
+/* About Page */
+
+.container .about-section .about-newspaper {
+    margin: 2.2rem 10rem 1rem 10rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .about-section .about-newspaper h2 {padding-bottom: 1rem;}
+
+.container .about-section .about-newspaper p {line-height: 1.5rem;}
+
+.container .topics-section {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.container .topics-section h2 {
+    border-bottom: 3px solid #000;
+    margin-bottom: 1.5rem;
+}
+
+.container .topics-section .topics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.container .topics-section .topics .topic {
+    margin-right: 3rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.container .topics-section .topics .topic i {padding-bottom: 0.25rem;}
+
+.container .surveys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .surveys div {
+    box-shadow: 0 5px 12px;
+    padding: 2rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 1rem;
+    width: 35%;
+}
+
+.container .surveys a {
+    color: var(--secondary-color);
+    transition: color ease-in-out 0.18s;
+}
+
+.container .surveys a:hover {color: #db9f3d;}
+
+/* ------------- */
+
+/* Archives Page */
+
+.container .archives {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+#archives-header {
+    text-align: center;
+    margin: 1.5rem 0rem 1rem 0rem;
+}
+
+.container .archives .archived-article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.container .archives .archived-article img {
+    margin-right: 1rem;
+    border-radius: 50px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+}
+
+.container .archives .archived-article a {color: #000;}
+
+.container .archives .archived-article a:hover {color: var(--primary-color);}
+
+.container .archives .current-archives {width: 70rem;}
+
+.container .archives .current-archives .archived-article p {
+    font-weight: lighter;
+    color: rgb(68, 68, 68);
+    font-size: 0.8rem;
+}
+
+.container .archives .previous-archives {
+    width: 20rem;
+    border-left: 2.4px solid rgb(48, 48, 48);
+    padding-left: 0.7rem;
+}
+
+.container .archives .previous-archives h3 {padding-bottom: 1rem;}
+
+.container .archives .previous-archives p {padding-bottom: 1rem;}
+
+#past-archives-l-child {margin-top: 1.8rem;}
+
+#archives-footer {margin-top: 5rem;}
